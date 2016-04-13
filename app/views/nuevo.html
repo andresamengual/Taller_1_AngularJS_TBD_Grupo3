@@ -1,0 +1,14 @@
+<div ng-controller="nuevoCtrl as up">
+  <form role="form" ng-submit="submit()">
+  <div class="form-content">
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" id="" placeholder="Ingresar nombre" ng-model="nombre">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" id="" placeholder="Ingresar apellido" ng-model="apellido">
+    </div>
+    <div class="form-group text-center">
+      <button ng-click="agregar()" type="submit" class="btn btn-primary btn-lg btn-outline btn-rounded">Agregar</button>
+    </div>
+  </form>
+</div>
